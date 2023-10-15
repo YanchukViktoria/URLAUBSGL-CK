@@ -1,0 +1,252 @@
+:root{
+    --logo-nav-title-desc-p-color: rgba(255, 255, 255, 1);
+    --partners-title-name-color: rgba(51, 51, 51, 1);
+    --partners-desc-color: rgba(102, 102, 102, 1);
+    --footer-button-color: rgba(255, 78, 80, 1);
+    --gb-color-first:rgba(255, 78, 80, 1);
+    --bg-color-second:rgba(28, 215, 173, 1);
+    --bg-img-thirth:rgba(255, 165, 7, 1);
+    --bg-img-fourth:rgba(78, 115, 219, 1)
+}
+
+.container{
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.logo, .nav-list-button, .home-list-button, .partners-title, .partners-list-title, .footer-button{
+    font-weight: 700;
+}
+
+.nav-list-button, .home-list-button, .partners-title, .partners-list-title{
+    line-height: 1,2;
+}
+
+body{
+    font-family: Montserrat;
+
+}
+
+.section-header{
+    background-image: url("./img/main-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: center;
+    gap: 580px;
+    align-items: center;
+
+    padding-top: 36px;
+}
+
+.logo{
+    font-size: 20px;
+    line-height: 1,0;
+    color: var(--logo-nav-title-desc-p-color);
+}
+    /* navigation */
+
+.nav-list{
+ display: flex;
+ align-items: center;
+ gap: 3px;
+}
+
+.nav-list-item{
+
+}
+
+.nav-list-button{
+    font-size: 14px;
+    color: var(--logo-nav-title-desc-p-color);
+}
+
+.nav-list-button-singup{
+    padding: 11px 15px;
+
+    border-radius: 50px;
+    border: solid 2px var(--logo-nav-title-desc-p-color);
+}
+        /* home */
+.home-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-list-item{
+
+}
+
+.home-list-title{
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+
+    padding-top: 125px;
+
+    font-size: 52px;
+    color: var(--logo-nav-title-desc-p-color);
+}
+
+.home-list-desc{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1,1;
+
+    padding-top: 36px;
+    padding-bottom: 46px;
+
+    color: var(--logo-nav-title-desc-p-color);
+}
+
+.home-list-button{
+    font-size: 14px;
+    color: var(--logo-nav-title-desc-p-color);
+
+    border-radius: 50px;
+    padding: 13px 11px;
+    background-color: var(--footer-button-color);
+}
+
+.home-list-item-button{
+    padding-bottom: 233px;
+}
+
+.partners-list-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+/* .partners-list-div::before{
+    content: "";
+    background-image: url("./img/brdley-first-team-img.png");
+} */
+
+.partners-list-button{
+    border: solid 3px var(--logo-nav-title-desc-p-color);
+    border-radius: 50px;
+    padding: 8px;
+}
+
+.partners-list-div-first{
+    width: 120px;
+    height: 120px;
+
+    justify-content: flex-end;
+    background-image: url("./img/brdley-first-team-img.png");
+}
+
+.partners-list-div-second{
+    width: 120px;
+    height: 120px;
+
+    justify-content: flex-end;
+    background-image: url("./img/heather-second-team-img.png");
+}
+
+.partners-list-div-third{
+    width: 120px;
+    height: 120px;
+
+    justify-content: flex-end;
+    background-image: url("./img/lukas-third-team-img.png");
+}
+
+.partners-list-div-fourth{
+    width: 120px;
+    height: 120px;
+
+    justify-content: flex-end;
+    background-image: url("./img/bradley-women-team-img.png");
+}
+
+
+.partners-list-button-first{
+    background-color: var(--gb-color-first);
+}
+
+.partners-list-button-second{
+    background-color: var(--bg-color-second);
+}
+
+.partners-list-button-third{
+    background-color: var(--bg-img-thirth);
+}
+
+.partners-list-button-fourth{
+background-color: var(--bg-img-fourth);
+}
+
+.partners-title{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 64px;
+    padding-bottom: 31px;
+
+    font-size: 22px;
+    color: var(--partners-title-name-color);
+}
+
+.partners-list{
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+}
+
+.partners-list-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners-list-title{
+    font-size: 14px;
+    color: var(--partners-title-name-color);
+
+    padding-top: 16px;
+    padding-bottom: 13px;
+
+    text-align: center;
+}
+
+.partners-list-desc{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1,1;
+    text-align: center;
+
+    max-width: 240px;
+
+    color: var(--partners-desc-color);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 37px;
+    padding-bottom: 72px;
+}
+
+.footer-button{
+    font-size: 14px;
+    line-height: 1,2;
+
+    padding: 13px 17px;
+
+    border: solid 2px var(--footer-button-color);
+    border-radius: 50px;
+    color: var(--footer-button-color);
+}
